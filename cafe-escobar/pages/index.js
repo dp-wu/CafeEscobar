@@ -19,13 +19,13 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>Welcome to Café Escobar!</p>
+          <p>We want to find coffee lovers worldwide</p>
         </div>
 
         <div className={styles.center}>
           <div className={styles.bgImage}>
             <Image
-              src="/landingPageCoffee.jpg"
+              src="/landingPageCoffee.jpeg"
               alt="landing page image with coffee beans"
               width={767.2}
               height={512}
@@ -42,21 +42,11 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Shop Beans <span>-&gt;</span>
+              Products <span>-&gt;</span>
             </h2>
           </Link>
 
-          <Link
-            href="shopPlants"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Shop Plants <span>-&gt;</span>
-            </h2>
-          </Link>
-
+         
           <Link
             href="loginSignup"
             className={styles.card}
